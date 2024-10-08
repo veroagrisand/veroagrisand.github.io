@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vero Agrisanda - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        section {
+            margin: 2rem 0;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 0.5rem;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .skill {
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 15px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .project {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        .contact-info {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vero Agrisanda</h1>
+        <p class="subtitle">Web Developer & Designer</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Vero Agrisanda, a passionate web developer and designer with a keen eye for creating beautiful and functional websites. I love turning ideas into reality through code and design.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">UI/UX Design</span>
+                <span class="skill">Responsive Design</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>E-commerce Website</h3>
+                    <p>A fully responsive e-commerce platform built with modern web technologies.</p>
+                    <img src="/api/placeholder/300/200" alt="E-commerce project screenshot">
+                </div>
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio showcasing my work and skills in web development.</p>
+                    <img src="/api/placeholder/300/200" alt="Portfolio project screenshot">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-info">
+            <h2>Contact Me</h2>
+            <p>Email: agrisandavero@gmail.com</p>
+            <p>LinkedIn: linkedin.com/in/veroagrisanda</p>
+            <p>GitHub: github.com/veroagrisand</p>
+        </section>
+    </div>
+</body>
+</html>
